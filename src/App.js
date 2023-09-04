@@ -1,8 +1,14 @@
 import {Plus} from './Plus.js';
+import {Minus} from './Minus.js'
 
 function App() {
   return (
-   <Plus/>
+    <>
+      <h1>電卓</h1>
+      <Plus/>
+      <Minus/>
+    </>
+   
   );
 }
 
